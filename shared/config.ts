@@ -1,0 +1,13 @@
+export const GAME_CONFIG = {
+  MIN_PLAYERS: 3,
+  MAX_PLAYERS: 4,
+  MAX_BID_CHARACTERS: 6,
+  STARTING_RESOURCES: { force: 1, blackmail: 1, gold: 3 },
+  PATRONAGE_MIN_RESOURCES: 5,
+  FINAL_SCORING: {
+    FORCE_VALUE: 5,
+    BLACKMAIL_VALUE: 3,
+    GOLD_VALUE: 1,
+  },
+  PORT: 3000,
+};
